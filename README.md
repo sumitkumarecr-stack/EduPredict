@@ -3,6 +3,8 @@
 EduPredict is a Streamlit web app that **estimates a student's final exam score (0–100)** from information
 available *before* the exam, and pairs the estimate with **supportive, rule-based study suggestions**.
 
+**Live demo:** [Open EduPredict](https://edupredict-fu9etexjkddctd8zpzapaw.streamlit.app/)
+
 > ⚠️ **The bundled model is trained on synthetic (computer-generated) data.** Its metrics show how well the
 > model learned invented patterns. They do **not** show real-world accuracy.
 >
@@ -216,6 +218,8 @@ If you change library versions, retrain and commit the new artifacts.
 3. Open the **Actions** tab to see the `tests` workflow run.
 
 ### Deploy on Streamlit Community Cloud
+Live application: [edupredict-fu9etexjkddctd8zpzapaw.streamlit.app](https://edupredict-fu9etexjkddctd8zpzapaw.streamlit.app/)
+
 1. Sign in at [share.streamlit.io](https://share.streamlit.io) with GitHub.
 2. Click **Create app** → **Yup, I have an app**.
 3. Fill in **Repository** `<your-username>/EduPredict`, **Branch** `main`, **Main file path** `app.py`,
